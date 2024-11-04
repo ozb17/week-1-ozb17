@@ -46,9 +46,9 @@ def ReLu(array, cutoff = 0):
 # Your code here:
 # -----------------------------------------------
 
-def neural_net_layer(arr1, arr2)
-output = np.dot(arr1, arr2)
-return ReLu(output)
+def neural_net_layer(arr1, arr2):
+  output = np.dot(arr1, arr2)
+  return ReLu(output)
 
 
 # ------------------------------------------
